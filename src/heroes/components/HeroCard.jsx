@@ -10,7 +10,7 @@ export const HeroCard = ({
         characters
 }) => {
 
-  const heroImageUrl = `../heroesImg/${id}.jpg`
+  const heroImageUrl = `./heroesImg/${id}.jpg`
 
   return (
     <div className="col">
