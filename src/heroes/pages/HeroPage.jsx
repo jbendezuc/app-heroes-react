@@ -22,7 +22,7 @@ export const HeroPage = () => {
     <div className="row mt-5">
       <div className="col-4 animate__animated animate__jello">
           <img 
-            src={`./assets/heroes/${id}.jpg`} 
+            src={`../heroesImg/${id}.jpg`} 
             alt={hero.superhero}
             className="img-thumbnail" 
           />
